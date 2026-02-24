@@ -529,6 +529,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../../diagnostics/index.html">Diagnostic and Fault Management</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../frameworks/index.html">Frameworks</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../lifecycle/index.html">Lifecycle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../nonipc/index.html">NonIPC Communication</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../orchestration/index.html">Orchestration (v0.5 beta)</a></li>
 <li class="toctree-l2 current active has-children"><a class="reference internal" href="../index.html">Persistency (v0.5 beta)</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../architecture/index.html">Architecture</a></li>
@@ -628,7 +629,7 @@
                   
   <section id="requirements">
 <span id="feature-persistency-requirements"></span><h1>Requirements<a class="headerlink" href="#requirements" title="Link to this heading">#</a></h1>
-<div class="need_container docutils container" id="SNCB-87cc9744">
+<div class="need_container docutils container" id="SNCB-a8deec4b">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_document table" id="doc__feature_persistency_requirements">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -671,7 +672,7 @@
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-175468e0">
+<div class="need_container docutils container" id="SNCB-eef5cf9d">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__cpp_rust">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -715,7 +716,7 @@
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-e5b02c3c">
+<div class="need_container docutils container" id="SNCB-167a22a0">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__os_agnostic">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -734,7 +735,7 @@
 </td>
 </tr>
 <tr class="meta row-even"><td class="meta" colspan="3"><div class="needs_meta_left line-block">
-<div class="line"><span><span><div class="line"><span class="needs_tags"><span class="needs_label">tags: </span><span class="needs_data_container"><span class="needs_data">persistency</span></span></span></div>
+<div class="line"><span><span><div class="line"><span class="needs_tags"><span class="needs_label">tags: </span><span class="needs_data_container"><span class="needs_data">operating_system</span><span class="needs_spacer">, </span><span class="needs_data">persistency</span></span></span></div>
 <div class="line"><span class="needs_reqtype"><span class="needs_label">reqtype: </span><span class="needs_data">Non-Functional</span></span></div>
 </span></span></div>
 <div class="line"><span><div class="line">satisfies: <span class="satisfies"><span><a class="reference internal" href="../../../requirements/stakeholder/index.html#stkh_req__functional_req__operating_system" title="feat_req__persistency__os_agnostic">stkh_req__functional_req__operating_system</a></span></span></div>
@@ -759,7 +760,7 @@
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-6b7c935d">
+<div class="need_container docutils container" id="SNCB-63801721">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__variant_management">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -804,7 +805,7 @@
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-bab65f1d">
+<div class="need_container docutils container" id="SNCB-e05807d5">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__dynamic_memory_alloc">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -854,7 +855,7 @@ Additionally, fragmentation of the <cite>HEAP</cite> can lead to non-determinist
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-28493373">
+<div class="need_container docutils container" id="SNCB-f9d12e91">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__multiple_kvs">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -899,7 +900,7 @@ Additionally, fragmentation of the <cite>HEAP</cite> can lead to non-determinist
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-4d2ee5db">
+<div class="need_container docutils container" id="SNCB-ae7c2dbe">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__multiple_app">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -948,7 +949,7 @@ Additionally, fragmentation of the <cite>HEAP</cite> can lead to non-determinist
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-4f23006f">
+<div class="need_container docutils container" id="SNCB-e587be6e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__access_control">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1000,7 +1001,7 @@ The Persistency shall implement mechanisms to enforce access control policies ba
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-68399ccd">
+<div class="need_container docutils container" id="SNCB-d24de495">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__cfg">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1077,7 +1078,7 @@ The configuration shall include:</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-e4daef95">
+<div class="need_container docutils container" id="SNCB-dfa4612b">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__support_datatype_keys">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1123,7 +1124,7 @@ The configuration shall include:</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-cc14e158">
+<div class="need_container docutils container" id="SNCB-491c6e75">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__support_datatype_value">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1169,7 +1170,7 @@ The configuration shall include:</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-1be71e3e">
+<div class="need_container docutils container" id="SNCB-1e69ae40">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__default_values">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1215,7 +1216,7 @@ The configuration shall include:</p>
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-4e4a041d">
+<div class="need_container docutils container" id="SNCB-25b3c4eb">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__default_value_file">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1267,7 +1268,7 @@ during initial deployment. See <a class="reference internal" href="#feat_req__pe
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-8660473d">
+<div class="need_container docutils container" id="SNCB-3ea737b3">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__default_value_get">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1313,7 +1314,7 @@ during initial deployment. See <a class="reference internal" href="#feat_req__pe
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-5e69a178">
+<div class="need_container docutils container" id="SNCB-763d79b1">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__reset_to_default">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1359,7 +1360,7 @@ This is only applicable for existing keys that have a predefined default value.<
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-006bcefc">
+<div class="need_container docutils container" id="SNCB-159ee68a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__store_data">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1405,7 +1406,7 @@ This is only applicable for existing keys that have a predefined default value.<
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-76ef2b87">
+<div class="need_container docutils container" id="SNCB-1f30dd33">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__reset_resistant">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1455,7 +1456,7 @@ successfully, or rolled back to the previous state in case of any kind of interr
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-6de203ab">
+<div class="need_container docutils container" id="SNCB-f71cb9cc">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__recovery_from_reset">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1504,7 +1505,7 @@ successfully, or rolled back to the previous state in case of any kind of interr
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-a4a89b19">
+<div class="need_container docutils container" id="SNCB-f9dece08">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__atomic_store">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1554,7 +1555,7 @@ This is required to prevent malfunctions when individual key-value pairs are dep
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-0403300e">
+<div class="need_container docutils container" id="SNCB-1a7c9db0">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__write_amplification">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1604,7 +1605,7 @@ Minimizing write amplification is crucial for optimizing performance and reducin
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-dbbcb1ce">
+<div class="need_container docutils container" id="SNCB-7c43cdf5">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__load_data">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1650,7 +1651,7 @@ Minimizing write amplification is crucial for optimizing performance and reducin
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-cecdc0f8">
+<div class="need_container docutils container" id="SNCB-11561010">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__cached_access">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1694,7 +1695,7 @@ Minimizing write amplification is crucial for optimizing performance and reducin
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-14a9f9e2">
+<div class="need_container docutils container" id="SNCB-70b7ef82">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__direct_access">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1743,7 +1744,7 @@ Minimizing write amplification is crucial for optimizing performance and reducin
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-119f83a7">
+<div class="need_container docutils container" id="SNCB-46f03c3e">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__integrity_check">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1789,7 +1790,7 @@ Minimizing write amplification is crucial for optimizing performance and reducin
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-cc263531">
+<div class="need_container docutils container" id="SNCB-82a19f01">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__confidential_storage">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1838,7 +1839,7 @@ Minimizing write amplification is crucial for optimizing performance and reducin
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-fa9f79ed">
+<div class="need_container docutils container" id="SNCB-cb75aa03">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__storage_backends">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1890,7 +1891,7 @@ Configurable storage backends allow the user to select the most suitable solutio
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-c0975347">
+<div class="need_container docutils container" id="SNCB-7408e113">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__async_api">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1936,7 +1937,7 @@ Configurable storage backends allow the user to select the most suitable solutio
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-f72159d9">
+<div class="need_container docutils container" id="SNCB-91dbc36f">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__async_completion">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -1982,7 +1983,7 @@ Configurable storage backends allow the user to select the most suitable solutio
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-0a7ae238">
+<div class="need_container docutils container" id="SNCB-319519b4">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__snapshot_create">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2035,7 +2036,7 @@ Implicit snapshots (e.g. created during store operation) shall be prevented to r
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-400ae672">
+<div class="need_container docutils container" id="SNCB-eb04eebd">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__snapshot_restore">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2081,7 +2082,7 @@ Implicit snapshots (e.g. created during store operation) shall be prevented to r
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-5af2c2bc">
+<div class="need_container docutils container" id="SNCB-48dd8893">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__snapshot_remove">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2126,7 +2127,7 @@ Implicit snapshots (e.g. created during store operation) shall be prevented to r
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-507b71b2">
+<div class="need_container docutils container" id="SNCB-05e46067">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__concurrency">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2172,7 +2173,7 @@ Implicit snapshots (e.g. created during store operation) shall be prevented to r
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-57275a3b">
+<div class="need_container docutils container" id="SNCB-c1843794">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__versioning">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2223,7 +2224,7 @@ Each version shall be uniquely identifiable and include information of the data 
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-9292c7c3">
+<div class="need_container docutils container" id="SNCB-0a2fcc4a">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__update_mechanism">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2268,7 +2269,7 @@ Each version shall be uniquely identifiable and include information of the data 
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-a48b5372">
+<div class="need_container docutils container" id="SNCB-306e9fb2">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__fast_access">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2312,7 +2313,7 @@ Each version shall be uniquely identifiable and include information of the data 
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-1e39194f">
+<div class="need_container docutils container" id="SNCB-f356a923">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__tooling">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2361,7 +2362,7 @@ Each version shall be uniquely identifiable and include information of the data 
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-69ef8f85">
+<div class="need_container docutils container" id="SNCB-fb589e77">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__dev_mode">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2407,7 +2408,7 @@ The development mode shall allow unrestricted data access and bypass security po
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-1fa624c4">
+<div class="need_container docutils container" id="SNCB-2c90a222">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_feat_req table" id="feat_req__persistency__prod_mode">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2456,7 +2457,7 @@ The production mode should enforce the most restrictive data access controls fea
 </section>
 <section id="aou-requirements">
 <span id="feature-persistency-requirements-aou"></span><h1>AoU Requirements<a class="headerlink" href="#aou-requirements" title="Link to this heading">#</a></h1>
-<div class="need_container docutils container" id="SNCB-4d6fd427">
+<div class="need_container docutils container" id="SNCB-fff10d97">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_aou_req table" id="aou_req__persistency__error_handling">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2500,7 +2501,7 @@ The production mode should enforce the most restrictive data access controls fea
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-0286a1a0">
+<div class="need_container docutils container" id="SNCB-8a04f1cb">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_aou_req table" id="aou_req__persistency__appl_design">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
@@ -2543,7 +2544,7 @@ The production mode should enforce the most restrictive data access controls fea
 </table>
 </div>
 </div>
-<div class="need_container docutils container" id="SNCB-17f6eba8">
+<div class="need_container docutils container" id="SNCB-570222d2">
 <div class="pst-scrollable-table-container"><table class="need needs_grid_complex needs_layout_score needs_style_none needs_type_aou_req table" id="aou_req__persistency__appl_exec">
 <tbody>
 <tr class="head row-odd"><td class="head_left" colspan="2"><div class="needs_head_left line-block">
