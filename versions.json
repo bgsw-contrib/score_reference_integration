@@ -16,6 +16,10 @@
     "url": "https://eclipse-score.github.io/reference_integration/pr-116/"
   },
   {
+    "version": "pr-155",
+    "url": "https://eclipse-score.github.io/reference_integration/pr-155/"
+  },
+  {
     "version": "pr-72",
     "url": "https://eclipse-score.github.io/reference_integration/pr-72/"
   },
@@ -30,13 +34,5 @@
   {
     "version": "v0.6.0",
     "url": "https://eclipse-score.github.io/reference_integration/v0.6.0/"
-  },
-  {
-    "version": "pr-154",
-    "url": "https://eclipse-score.github.io/reference_integration/pr-154/"
-  },
-  {
-    "version": "pr-155",
-    "url": "https://eclipse-score.github.io/reference_integration/pr-155/"
   }
 ]
